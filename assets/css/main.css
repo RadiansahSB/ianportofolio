@@ -899,16 +899,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# Portofolio Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+.portofolio .portofolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio .portfolio-filters li {
+.portofolio .portofolio-filters li {
   background-color: var(--surface-color);
   cursor: pointer;
   display: inline-block;
@@ -922,33 +922,33 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
+.portofolio .portofolio-filters li:hover,
+.portofolio .portofolio-filters li.filter-active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
 
-.portfolio .portfolio-filters li:first-child {
+.portofolio .portofolio-filters li:first-child {
   margin-left: 0;
 }
 
-.portfolio .portfolio-filters li:last-child {
+.portofolio .portofolio-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
+  .portofolio .portofolio-filters li {
     font-size: 14px;
     margin: 0 0 10px 0;
   }
 }
 
-.portfolio .portfolio-item {
+.portofolio .portofolio-item {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio .portfolio-item .portfolio-info {
+.portofolio .portofolio-item .portofolio-info {
   opacity: 0;
   position: absolute;
   left: 12px;
@@ -960,21 +960,21 @@ section,
   padding: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
+.portofolio .portofolio-item .portofolio-info h4 {
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
 }
 
-.portfolio .portfolio-item .portfolio-info p {
+.portofolio .portofolio-item .portofolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.portofolio .portofolio-item .portofolio-info .preview-link,
+.portofolio .portofolio-item .portofolio-info .details-link {
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -984,17 +984,17 @@ section,
   line-height: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portofolio .portofolio-item .portofolio-info .preview-link:hover,
+.portofolio .portofolio-item .portofolio-info .details-link:hover {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-item .portfolio-info .details-link {
+.portofolio .portofolio-item .portofolio-info .details-link {
   right: 14px;
   font-size: 28px;
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
+.portofolio .portofolio-item:hover .portofolio-info {
   opacity: 1;
   bottom: 0;
 }
@@ -1167,35 +1167,35 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# Portofolio Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+.portofolio-details .portofolio-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.portofolio-details .portofolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portofolio-details .portofolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portofolio-details .portofolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-info {
+.portofolio-details .portofolio-info {
   background-color: var(--surface-color);
   padding: 30px;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-details .portfolio-info h3 {
+.portofolio-details .portofolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1203,27 +1203,27 @@ section,
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.portfolio-details .portfolio-info ul {
+.portofolio-details .portofolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portofolio-details .portofolio-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.portofolio-details .portofolio-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portofolio-details .portofolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.portofolio-details .portofolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
